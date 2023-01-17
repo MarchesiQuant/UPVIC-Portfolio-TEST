@@ -34,6 +34,7 @@ fig4 = px.bar(roi_m['PORTFOLIO'], title = 'Monthly Portfolio Returns'); fig4.upd
 #-----------------------------------------------------------------------------------
 
 app = Dash(__name__)
+server = app.server
 
 #colors = {
     #'background': '#111111',
